@@ -1,0 +1,65 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/golostext.css);
+.content{
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #2E3039;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 524px 362px 500px;
+    column-gap: 80px;
+    justify-content: center;
+}
+
+.first{
+    width: 100%;
+    max-height: 476px;
+    background-color: #FFFFFF;
+    margin-top: 213px;
+    padding: 20px 20px 20px 20px;
+}
+
+.first__block{
+    display: flex;
+}
+
+.first__img{
+    width: 200px;
+    height: 150px;
+}
+
+.first__text{
+    margin-left: 20px;
+}
+
+.first__header{
+    display: flex;
+}
+
+.first__data{
+    margin: 0;
+    padding: 0;
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.first__btn{
+    width: 71px;
+    height: 24px;
+    background-color: #1D1E21;
+    border-radius: 80px;
+    color: #FFFFFF;
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    border-color: #1D1E21;
+    margin-left: 16px;
+    text-align: center;
+}
